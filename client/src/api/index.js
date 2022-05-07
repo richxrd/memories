@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-    baseURL: "https://richxrd-memories.herokuapp.com/",
+    baseURL: "https://richxrd-memories.herokuapp.com",
 });
 
 API.interceptors.request.use((req) => {
